@@ -91,7 +91,7 @@ export default function Screen8FinalSurprise({ onReplay }) {
               <ImageWithFallback
                 src={birthdayData.finalSurpriseScreen.hiddenPhotoUrl}
                 alt="Secret Memory"
-                fallbackTitle="Brotherhood For Life"
+                fallbackTitle="A Wonderful Memory"
                 fallbackTheme="indigo"
                 fallbackIcon="heart"
               />

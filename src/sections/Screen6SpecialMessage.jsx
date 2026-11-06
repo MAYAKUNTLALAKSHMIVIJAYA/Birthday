@@ -83,7 +83,7 @@ export default function Screen6SpecialMessage({ onNext }) {
 
           <div className="flex items-center gap-2 text-rose-400/80 text-sm font-handwritten text-xl">
             <Heart className="w-5 h-5 fill-rose-500 text-rose-500 animate-pulse" />
-            <span>Brothers for eternity</span>
+            <span>Always wishing you happiness ✨</span>
           </div>
         </div>
       </motion.div>

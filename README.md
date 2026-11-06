@@ -2,7 +2,7 @@
 
 > A premium, magical, emotional, and unforgettable interactive birthday journey created with React, Vite, Tailwind CSS, Framer Motion, and Web Audio synthesis.
 
-Designed specifically for celebrating your best friend with cinematic storytelling, memory vaults, video time capsules, an interactive friendship timeline, a suspenseful 3D birthday cake with interactive candle blowing, fireworks, confetti, and secret surprises.
+Designed specifically for celebrating your friend with cinematic storytelling, memory vaults, video time capsules, an interactive friendship timeline, a suspenseful 3D birthday cake with interactive candle blowing, fireworks, confetti, and secret surprises.
 
 ---
 
@@ -35,7 +35,7 @@ Designed specifically for celebrating your best friend with cinematic storytelli
 6. **Screen 6: A Special Message**
    - Deeply emotional letter with soft ambient corner auroras.
    - Inspirational quote banner and typewriter text effect.
-   - Brother-for-eternity sign-off and audio chime.
+   - Thoughtful sign-off and audio chime.
 
 7. **Screen 7: The Big Birthday Surprise (The Climax)**
    - Dramatic suspense tease (*"Wait... You thought that was everything?"*).
@@ -70,9 +70,9 @@ All texts, dates, names, photos, videos, and memories are configured in **one si
 👉 `src/data/birthdayData.js`
 
 Open `src/data/birthdayData.js` in your editor to change:
-- **Best Friend's Name**: e.g., `"Alex"`, `"Aryan"`, `"David"`, etc.
-- **Birthday Date**: e.g., `"November 7th"`
-- **Personal Letters & Paragraphs**: Edit any of the emotional messages.
+- **Friend's Name**: e.g., `"Sujith"`
+- **Birthday Date**: e.g., `"Special Day"`
+- **Personal Letters & Paragraphs**: Edit any of the messages.
 - **Friendship Milestones**: Add your own dates, stories, and categories.
 - **Photo Captions & Video Details**.
 
@@ -86,16 +86,15 @@ Place your files in the `public/media/` directory:
 public/
   media/
     photos/
-      photo1.jpg
-      photo2.jpg
-      photo3.jpg
-      photo4.jpg
-      photo5.jpg
-      photo6.jpg
-      photo-secret.jpg
+      photo1.jpeg
+      photo2.jpeg
+      photo3.jpeg
+      photo4.jpeg
+      photo5.jpeg
+      photo6.jpeg
+      photo7.jpeg
     videos/
       video1.mp4
-      video2.mp4
     music/
       birthday-music.mp3
 ```
@@ -151,4 +150,4 @@ public/
 5. Click **"Deploy"**.
 6. In ~30 seconds, Vercel will provide your live public URL (e.g., `https://your-birthday-surprise.vercel.app`)!
 
-Send the link to your best friend and give them an unforgettable birthday surprise! ✨
+Send the link to Sujith and give him an unforgettable birthday surprise! ✨

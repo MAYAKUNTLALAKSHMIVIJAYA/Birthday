@@ -2,14 +2,15 @@
  * ==============================================================================
  * 🎂 BIRTHDAY SURPRISE MASTER CONFIGURATION FOR SUJITH
  * ==============================================================================
+ * Thoughtful, warm, and magical birthday experience from a female friend to Sujith.
  */
 
 export const birthdayData = {
   // 🌟 Recipient & Occasion Details
   recipient: {
-    name: "Sujith", // Best friend's name
-    nickname: "Brother / Legend",
-    birthdayDate: "Special Day", // Celebrated occasion
+    name: "Sujith",
+    nickname: "A Wonderful Friend",
+    birthdayDate: "Special Day",
     birthYear: "Special Year",
     milestoneAge: "",
   },
@@ -18,33 +19,33 @@ export const birthdayData = {
   audio: {
     // Selected peaceful, emotional piano masterpiece: Debussy's Clair de Lune (Moonlight)
     musicUrl: "/media/music/birthday-music.mp3",
-    musicTitle: "Clair de Lune (Moonlight) - Emotional Piano",
+    musicTitle: "Clair de Lune (Moonlight) - Peaceful Piano",
     fallbackSynthesizer: true,
   },
 
   // 🌌 Screen 1: Mysterious Welcome
   welcomeScreen: {
-    badge: "A SPECIAL SURPRISE EXPERIENCE",
+    badge: "A SPECIAL BIRTHDAY SURPRISE",
     mysteryQuote: "Some people make ordinary moments unforgettable...",
-    subQuote: "Tonight, beneath the stars, something crafted just for you is waiting, Sujith.",
+    subQuote: "Tonight, beneath the stars, a little surprise crafted just for you is waiting, Sujith.",
     buttonText: "Discover Your Surprise",
   },
 
   // 💌 Screen 2: Secret Wax-Sealed Envelope
   envelopeScreen: {
     introHeading: "Hey Sujith!",
-    introSubheading: "Before you step forward into this night, there's a personal letter meant only for your eyes.",
+    introSubheading: "Before you continue, there is a personal letter I wanted to share with you today.",
     sealLabel: "BREAK SEAL",
-    letterDate: "Today & Forever",
+    letterDate: "Today & Always",
     letterGreeting: "Dear Sujith,",
     letterBody: [
-      "Life moves incredibly fast, and between all our daily hustle, work, and ambitions, we rarely pause to say what truly matters.",
-      "Having you as my brother and best friend has been one of the greatest blessings. Through every storm, every win, and every crazy moment, you've always stood like an absolute rock.",
-      "This isn't just an ordinary birthday greeting or a simple text. I created this entire experience tonight to celebrate you, our unbreakable bond, and all the legendary memories we've shared.",
-      "Take a deep breath, turn up the music, and let's take a walk down our memory lane..."
+      "Life moves so quickly, and between our busy routines and everyday moments, we don't always pause to appreciate the wonderful people in our lives.",
+      "I just wanted to take a moment today to let you know how much I value our friendship. You bring so much positivity, laughter, and great energy wherever you go.",
+      "I put together this little interactive website tonight to celebrate you and bring a bright smile to your face on your special day.",
+      "Take a deep breath, listen to the peaceful music, and enjoy this little journey created just for you!"
     ],
-    letterClosing: "With unbreakable love & respect,",
-    letterSignature: "Your Best Friend ❤️",
+    letterClosing: "Warmest wishes,",
+    letterSignature: "Your Friend ✨",
     continueButtonText: "Enter The Vault Of Memories",
   },
 
@@ -52,7 +53,7 @@ export const birthdayData = {
   galleryScreen: {
     badge: "CHAPTER ONE",
     title: "The Memory Vault",
-    subtitle: "Every picture holds laughter, late-night talks, and stories only we will ever truly understand.",
+    subtitle: "A collection of genuine smiles, fun moments, and memories that are always wonderful to look back on.",
     photos: [
       {
         id: "photo-1",
@@ -67,58 +68,58 @@ export const birthdayData = {
       },
       {
         id: "photo-2",
-        title: "The Brotherhood Bond",
+        title: "Great Times & Good Vibes",
         date: "Golden Days",
-        caption: "Standing strong together through every chapter. A friendship built on real loyalty.",
+        caption: "Wonderful conversations and memories that never fail to bring a smile.",
         url: "/media/photos/photo2.jpeg",
         rotation: 3,
         aspect: "horizontal",
         fallbackTheme: "amber",
-        highlight: "Brotherhood",
+        highlight: "Good Times",
       },
       {
         id: "photo-3",
         title: "Unmatched Energy",
         date: "Vibes & Laughs",
-        caption: "Every time we hang out, there's never a dull second. Pure unscripted energy.",
+        caption: "Every time we hang out, there's always fun energy and endless laughter.",
         url: "/media/photos/photo3.jpeg",
         rotation: -2,
         aspect: "vertical",
         fallbackTheme: "violet",
-        highlight: "Good Vibes",
+        highlight: "Fun Vibes",
       },
       {
         id: "photo-4",
-        title: "The Vision & The Grind",
-        date: "Big Dreams",
-        caption: "Talking about the future, our goals, and pushing each other to achieve greatness.",
+        title: "Big Dreams & Ambition",
+        date: "Looking Ahead",
+        caption: "Talking about goals and aspirations. Always inspired by your dedication.",
         url: "/media/photos/photo4.jpeg",
         rotation: 4,
         aspect: "horizontal",
         fallbackTheme: "indigo",
-        highlight: "Dreamers",
+        highlight: "Dreamer",
       },
       {
         id: "photo-5",
-        title: "Cherished Memories",
-        date: "Classic Moments",
-        caption: "No matter how much time passes, these snapshots remind us how far we've come.",
+        title: "Cherished Moments",
+        date: "Memorable Times",
+        caption: "Pictures that capture the simple, happy moments of our friendship.",
         url: "/media/photos/photo5.jpeg",
         rotation: -3,
         aspect: "vertical",
         fallbackTheme: "rose",
-        highlight: "Priceless",
+        highlight: "Special",
       },
       {
         id: "photo-6",
-        title: "Always Having Your Back",
-        date: "Unbreakable",
-        caption: "Through thick and thin, no distance or busy schedules can ever change this brotherhood.",
+        title: "Always Rooting For You",
+        date: "Friendship",
+        caption: "Wishing you the very best in every chapter ahead. Always cheering you on!",
         url: "/media/photos/photo6.jpeg",
         rotation: 2,
         aspect: "horizontal",
         fallbackTheme: "sky",
-        highlight: "Forever Friends",
+        highlight: "True Friend",
       },
     ],
   },
@@ -127,13 +128,13 @@ export const birthdayData = {
   videoScreen: {
     badge: "CHAPTER TWO",
     title: "Cinematic Time Capsules",
-    subtitle: "Because photographs capture a moment, but video brings the laughter and memories back to life.",
+    subtitle: "Because photographs capture a moment, but video brings all the laughter and good energy right back to life.",
     videos: [
       {
         id: "video-1",
         title: "The Sujith Chronicles",
         duration: "Special Highlight",
-        caption: "Unfiltered smiles, unforgettable moments, and the unmatched energy you bring everywhere you go.",
+        caption: "Unfiltered smiles, great moments, and the bright energy you bring everywhere you go.",
         url: "/media/videos/video1.mp4",
         thumbnail: "/media/photos/photo1.jpeg",
         badge: "Special Memory",
@@ -146,60 +147,60 @@ export const birthdayData = {
   journeyScreen: {
     badge: "CHAPTER THREE",
     title: "Our Journey Together",
-    subtitle: "A timeline of moments that turned two people into brothers for life.",
+    subtitle: "A timeline of fun moments, shared chats, and memorable milestones.",
     milestones: [
       {
         id: "m-1",
         year: "The Beginning",
         category: "Origin",
-        title: "The Day We First Became Friends",
-        description: "From our very first conversation, it was obvious we were going to make history together.",
+        title: "The Day We First Crossed Paths",
+        description: "Looking back at when we first met and became friends—time truly flies when life is fun!",
         icon: "sparkles",
         highlight: "Chapter 1",
       },
       {
         id: "m-2",
-        year: "Unstoppable",
+        year: "Fun Times",
         category: "Crazy Times",
-        title: "Crazy Shenanigans & Endless Laughs",
-        description: "The inside jokes, hilarious misadventures, and moments that only make sense to us two.",
+        title: "Hilarious Chats & Unstoppable Laughs",
+        description: "All the funny conversations, shared jokes, and lighthearted moments that made days brighter.",
         icon: "shield",
-        highlight: "True Loyalty",
+        highlight: "Great Chats",
       },
       {
         id: "m-3",
         year: "Leveling Up",
         category: "Milestones",
-        title: "Chasing Dreams & Supporting Each Other",
-        description: "When times got challenging, you never let me quit. Having a friend like Sujith gives anyone strength.",
+        title: "Cheering For Your Dreams",
+        description: "Watching you learn, grow, and pursue your goals. Keep aiming high!",
         icon: "flame",
         highlight: "Ambition",
       },
       {
         id: "m-4",
-        year: "Today & Beyond",
+        year: "Today",
         category: "Present",
-        title: "Celebrating Sujith's Big Day",
-        description: "Another year older, wiser, stronger, and more successful. Proud of the man you are!",
+        title: "Celebrating Sujith's Special Day",
+        description: "Another fantastic year to celebrate! May this new chapter bring you endless joy and blessings.",
         icon: "award",
-        highlight: "Legendary",
+        highlight: "Celebration",
       },
     ],
   },
 
   // 📜 Screen 6: A Special Heartfelt Message
   specialMessageScreen: {
-    badge: "FROM THE BOTTOM OF MY HEART",
+    badge: "A SPECIAL BIRTHDAY WISH",
     heading: "Some friendships are simply special.",
-    quote: "“A true friend is someone who knows all about you, and still loves you just the same.”",
+    quote: "“Good friends are like stars; you don't always see them, but you know they're always there.”",
     paragraphs: [
-      "Sujith, in a world where almost everything is temporary and people change with seasons, having you in my life is something I never take for granted.",
-      "Your genuine heart, your dedication to the people you care about, your humor, and your resilience inspire everyone around you every single day.",
-      "On this special birthday, I pray that this year unlocks doors you've been working hard to open. May health, immense wealth, inner peace, and happiness follow you wherever you step.",
-      "Thank you for being the truest brother anyone could ever ask for. Keep shining and never dim your light for anyone."
+      "Sujith, on your birthday, I wanted to take a moment to say how much I truly appreciate having a friend like you in my life.",
+      "You have such a genuine personality, a great sense of humor, and a kind nature that makes everyone around you feel comfortable and valued.",
+      "May this coming year bring you exciting new opportunities, peace of mind, vibrant health, and all the happiness you deserve.",
+      "I hope your day is filled with laughter, wonderful surprises, and everything that makes you happy. Keep being the wonderful person you are!"
     ],
-    signature: "Always your brother in arms,",
-    senderName: "Your Best Friend",
+    signature: "Wishing you a fantastic year ahead,",
+    senderName: "Your Friend",
   },
 
   // 🎂 Screen 7: The Big Birthday Surprise (The Climax)
@@ -207,11 +208,11 @@ export const birthdayData = {
     suspenseText: "Wait... You thought that was everything, Sujith?",
     countdownPrompt: "Get ready... take a deep breath...",
     revealGreeting: "HAPPY BIRTHDAY",
-    revealSubtitle: "To the legend, the brother, the one and only",
+    revealSubtitle: "Wishing an extraordinary year ahead to",
     cakePrompt: "Blow out the candles & make a heartfelt wish!",
     candlesCount: 5,
     wishesBlownTitle: "✨ HAPPY BIRTHDAY SUJITH! ✨",
-    wishesBlownText: "May every single wish you make tonight come true in the most magnificent way! The universe has big plans for you this year, Sujith. Keep conquering!",
+    wishesBlownText: "May every single wish you make tonight come true in the most wonderful way! Here's to a year filled with happiness, success, and great achievements, Sujith!",
     confettiColors: ['#fbbf24', '#f59e0b', '#c084fc', '#e879f9', '#38bdf8', '#ffffff'],
   },
 
@@ -220,9 +221,9 @@ export const birthdayData = {
     buttonLabel: "One Last Secret...",
     teaserText: "Before you close this page, there's one final vault item locked behind the stars...",
     dialogTitle: "A Permanent Keepsake",
-    secretQuote: "“Good times become better memories, and great friends become lifelong brothers.”",
+    secretQuote: "“Count your life by smiles, not tears. Count your age by friends, not years.”",
     hiddenPhotoUrl: "/media/photos/photo7.jpeg", // Using your uploaded 7th photo for the secret finale!
-    hiddenPhotoCaption: "To Sujith: To a hundred more birthdays, shared victories, and stories worth writing books about.",
+    hiddenPhotoCaption: "To Sujith: Wishing you a memorable year filled with success, joy, and wonderful new experiences!",
     finalWords: "Keep smiling. Keep shining. And never stop being you, Sujith.",
     replayPrompt: "Want to experience the journey again?",
     replayButton: "Replay Experience ↺",
